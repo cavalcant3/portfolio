@@ -1,14 +1,22 @@
 {
     "projects": [
         {
-        "id": 1,
-        "name" : "crud angular",
-        "about" : "crud feito em angular lorem ipson lorem ipson",
-        "tech" : {
-            "angular" : 1,
-            "node" : 2
+            "id": 1,
+            "name": "crud angular",
+            "about": "crud feito em angular lorem ipson lorem ipson",
+            "tech": {
+                "angular": 1,
+                "node": 2
+            }
+        },
+        {
+            "id": 2,
+            "name": "crud spring",
+            "about": "crud feito em spring lorem ipson lorem ipson",
+            "tech": {
+                "spring": 1,
+                "postgres": 2
+            }
         }
-        }
-        
     ]
 }

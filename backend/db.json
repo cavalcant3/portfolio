@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+        "id": 1,
+        "name" : "crud angular",
+        "about" : "crud feito em angular lorem ipson lorem ipson",
+        "tech" : {
+            "angular" : 1,
+            "node" : 2
+        }
+        }
+        
+    ]
+}

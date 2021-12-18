@@ -13,3 +13,8 @@
 .footer .link {
     text-decoration: none;
 }
+.footer .about {
+   position: fixed;
+   bottom: 0;
+    
+}

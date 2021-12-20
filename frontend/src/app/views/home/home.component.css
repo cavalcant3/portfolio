@@ -1,16 +1,20 @@
 .container{
 padding-top: 50px;
-width: 65%;
-margin: 10px auto;
+width: 45%;
+margin: 50px auto;
     
 }
-.container >.imagem {
-    border-radius: 50%;
+.container > .imagem {
     display: flex;
     justify-content: center;
-   
+    
 }
-.container > .title{
+.imagem > .foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 90%
+}
+.container  .title{
     display: flex;
 justify-content: center;
 font-weight: 300;
@@ -23,8 +27,8 @@ padding-top: 50px;
     display: flex;
 justify-content: center;
 }
-.container .content {
-   
-    height: 15vh;
+.container > .content {
+   height: 15vh;
+   padding-inline: 10px;
 
 }

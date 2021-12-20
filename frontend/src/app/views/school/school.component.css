@@ -1,0 +1,21 @@
+.container {
+    
+}
+.container .title{
+ display: flex;
+justify-content: center;
+font-weight: 300;
+font-size: 2.3rem;
+padding-top: 50px;
+}
+
+.subtitle {
+    padding: 0.5rem;
+    display: flex;
+justify-content: center;
+}
+.content {
+    padding: 0.5rem;
+    display: flex;
+justify-content: center; 
+}

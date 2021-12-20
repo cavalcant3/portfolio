@@ -5,6 +5,7 @@ import { ExperienceComponent } from './views/experience/experience.component';
 import { HomeComponent } from './views/home/home.component';
 import { SchoolComponent } from './views/school/school.component';
 
+//definindo rotas
 const routes: Routes = [{
   path:"",
   component:HomeComponent

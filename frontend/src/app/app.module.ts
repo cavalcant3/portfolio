@@ -16,6 +16,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ExperienceComponent } from './views/experience/experience.component';
 import { SchoolComponent } from './views/school/school.component';
 import { ContactComponent } from './views/contact/contact.component'
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactComponent } from './views/contact/contact.component'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

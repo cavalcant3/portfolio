@@ -11,14 +11,22 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { NavComponent } from './components/template/nav/nav.component'
 
 import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatListModule} from '@angular/material/list'
+import {MatListModule} from '@angular/material/list';
+import { HomeComponent } from './views/home/home.component';
+import { ExperienceComponent } from './views/experience/experience.component';
+import { SchoolComponent } from './views/school/school.component';
+import { ContactComponent } from './views/contact/contact.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    ExperienceComponent,
+    SchoolComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
